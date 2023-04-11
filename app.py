@@ -15,8 +15,8 @@ if send:
 
 		# Set environment variables for your credentials
 		# Read more at http://twil.io/secure
-		account_sid = "{Replace with sid From your Twilio Acoount}"
-		auth_token = "Replace with token From your Twilio Acoount"
+		account_sid = " "
+		auth_token = " "
 		client = Client(account_sid, auth_token)
 		message = client.messages.create(
 		  body= f'{message}',
